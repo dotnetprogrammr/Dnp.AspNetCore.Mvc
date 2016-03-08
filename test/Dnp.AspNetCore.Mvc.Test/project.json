@@ -1,0 +1,17 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "Dnp.AspNetCore.Mvc.Test Class Library",
+  "authors": [ "Michael" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "frameworks": {
+    "net46": { }
+  },
+  "dependencies": {
+    "Dnp.AspNetCore.Mvc": "1.0.0-*",
+    "FakeItEasy": "1.25.3",
+    "xunit": "1.9.2"
+  }
+}
