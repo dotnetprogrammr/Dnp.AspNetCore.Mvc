@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{80E53709-2DFD-4250-9EEE-930C47E0E54B}"
 EndProject
@@ -16,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{034E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{29D41ED2-9832-412E-8048-93A16466E602}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Dnp.AspNetCore.Mvc.Test", "test\Dnp.AspNetCore.Mvc.Test\Dnp.AspNetCore.Mvc.Test.xproj", "{F670E5BE-5A92-47EE-B7A0-43A2084D00FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,11 +28,16 @@ Global
 		{495F3131-8C23-4523-9D9B-D2BBA9B266A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{495F3131-8C23-4523-9D9B-D2BBA9B266A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{495F3131-8C23-4523-9D9B-D2BBA9B266A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F670E5BE-5A92-47EE-B7A0-43A2084D00FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F670E5BE-5A92-47EE-B7A0-43A2084D00FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F670E5BE-5A92-47EE-B7A0-43A2084D00FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F670E5BE-5A92-47EE-B7A0-43A2084D00FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{495F3131-8C23-4523-9D9B-D2BBA9B266A0} = {80E53709-2DFD-4250-9EEE-930C47E0E54B}
+		{F670E5BE-5A92-47EE-B7A0-43A2084D00FF} = {29D41ED2-9832-412E-8048-93A16466E602}
 	EndGlobalSection
 EndGlobal
