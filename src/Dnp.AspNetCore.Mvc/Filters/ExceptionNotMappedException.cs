@@ -2,6 +2,10 @@
 
 namespace Dnp.AspNetCore.Mvc
 {
+    /// <summary>
+    /// The exception that is thrown when the transformation of an exception has been requested but it has not been
+    /// mapped.
+    /// </summary>
     public class ExceptionNotMappedException : Exception
     {
         /// <summary>

@@ -1,13 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
+
 using Dnp.AspNetCore.Mvc.Filters;
-using Microsoft.AspNet.Http;
+
 using Microsoft.AspNet.Http.Internal;
 using Microsoft.AspNet.Mvc;
 using Microsoft.AspNet.Mvc.Abstractions;
 using Microsoft.AspNet.Mvc.Filters;
 using Microsoft.AspNet.Routing;
+
 using Xunit;
 
 namespace Dnp.AspNetCore.Mvc.Test

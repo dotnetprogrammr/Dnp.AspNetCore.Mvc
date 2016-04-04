@@ -1,4 +1,5 @@
 ﻿using System;
+
 using Microsoft.AspNet.Mvc;
 using Microsoft.AspNet.Mvc.Filters;
 
@@ -8,6 +9,11 @@ namespace Dnp.AspNetCore.Mvc.Filters
     {
         private readonly ITransformationCollection transformations;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="StatusCodeExceptionFilterAttribute"/> class with the specified
+        /// transformations.
+        /// </summary>
+        /// <param name="transformations">The exception transformations.</param>
         public StatusCodeExceptionFilterAttribute(ITransformationCollection transformations)
         {
             if (transformations == null)

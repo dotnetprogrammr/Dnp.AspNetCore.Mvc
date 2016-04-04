@@ -1,13 +1,12 @@
-﻿
+﻿using System;
+using System.Collections.Generic;
+
+using FakeItEasy;
+
+using Xunit;
+
 namespace Dnp.AspNetCore.Mvc.Test
 {
-    using System;
-    using System.Collections.Generic;
-
-    using FakeItEasy;
-
-    using Xunit;
-
     public class ExceptionTransformationCollectionBuilderTest
     {
         [Fact]

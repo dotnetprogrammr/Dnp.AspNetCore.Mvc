@@ -1,8 +1,7 @@
-﻿
+﻿using System;
+
 namespace Dnp.AspNetCore.Mvc
 {
-    using System;
-
     public class ExceptionTransformationCollectionBuilder
     {
         internal ExceptionTransformationCollectionBuilder(ITransformationCollection transformations, int statusCode)
