@@ -6,7 +6,7 @@
   "projectUrl": "",
   "licenseUrl": "",
   "frameworks": {
-    "net46": {
+    "dnx46": {
       "frameworkAssemblies": {
         "System.Runtime": "4.0.0"
       }
